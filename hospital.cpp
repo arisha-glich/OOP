@@ -1,4 +1,4 @@
-//The provided C++ code defines a simple hospital management system using classes to represent `Doctor`, `Patient`, `Appointment`, and `Hospital`. The system allows doctors and patients to be added to the hospital, and appointments can be scheduled between doctors and patients. Below is a description of the main components of the code:
+*/The provided C++ code defines a simple hospital management system using classes to represent `Doctor`, `Patient`, `Appointment`, and `Hospital`. The system allows doctors and patients to be added to the hospital, and appointments can be scheduled between doctors and patients. Below is a description of the main components of the code:
 1. **Doctor Class:**
    - Represents a doctor with attributes `name` and `specialization`.
    - Provides a default constructor and a parameterized constructor to initialize the attributes.
@@ -28,11 +28,9 @@
    - Displays details of all scheduled appointments.
 
 This hospital management system demonstrates the concept of object-oriented programming by encapsulating related attributes and behaviors within classes. The main function serves as a sample scenario, showing how doctors, patients, and appointments can be managed within a hospital system.#include <iostream>
+/*
 #include <string>
-
-//
 using namespace std;
-
 const int MAX_DOCTORS = 5;
 const int MAX_PATIENTS = 10;
 const int MAX_APPOINTMENTS = 10;
